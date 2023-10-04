@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.m-p {
+  width: 500px;
+  height: 100px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+
+  background-color: red;
+
+  padding: 10px;
+  margin: 10px 50px 10px 
+}
+
+.m-p2 {
+  width: 500px;
+  height: 100px;
+
+  background-color: green;
+
+  border: 1px solid black;
+  border-radius: 8px;
+  
+  margin: 10px auto;
+}
+
+.wed {
+    background-color: tomato;
+    text-align: center;
+}
+
+.tus {
+    background-color: aquamarine;
+    /* before style inline element make it display: inline-block first, then apply style*/
+    display: inline-block;
+    padding: 10px;
+}
