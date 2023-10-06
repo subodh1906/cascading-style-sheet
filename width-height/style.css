@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid red;
+    background-color: blanchedalmond;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Width{
+    width: 700px;
+}
+
+.min_width{
+    min-width: 500px;
+}
+
+.max_width {
+    max-width: 700px;
+}
+
+.view_port_width{
+    /* width: 100vw; */
+    width: 50vw;
+}
+.percent {
+    width: 60%;
+}
+.percent p {
+    background-color: red;
+    padding: 5px;
+    width: 50%;
+}
