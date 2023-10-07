@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>css Position</h3>
+      <ol>
+        <li>static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>sticky</li>
+        <li>fixed</li>
+      </ol>
+    </div>
+
+    <div class="container static">
+      <dl>
+        <dt>Static</dt>
+        <dd>
+          it is normal flow and cannot change its position by using top bottom
+          left right properties
+        </dd>
+      </dl>
+    </div>
+
+    <div class="container relative">
+      <dl>
+        <dt>Relative</dt>
+        <dd>
+          it is normal flow and we can change its position by using top bottom
+          left right properties <br />
+          But,it dose not allow other element to capture its default position
+        </dd>
+      </dl>
+    </div>
+
+    <div class="container fixed">
+      <dl>
+        <dt>fixed</dt>
+        <dd>
+          it is relative to view port. means even if page is scrolled it remians
+          in same place
+        </dd>
+      </dl>
+    </div>
+
+    <div class="container sticky">
+        <dl>
+          <dt>sticky</dt>
+          <dd>
+            it's position is based on scroll position. it is toggled between relative and fixed <br>
+            until given position is met it behaive like relative. Once the given positoin is met it behaive like fixed
+          </dd>
+        </dl>
+      </div>
+
+      <div class="container rel">
+        <dl>
+          <dt>absolute</dt>
+          <dd>
+            it's position 
+          </dd>
+        </dl>
+        <div class="abs">
+          abs
+        </div>
+      </div>
+
+  </body>
+</html>

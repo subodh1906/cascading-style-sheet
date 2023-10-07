@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+.container {
+    background-color: bisque;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.static {
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+.relative {
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 1000;
+}
+.sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.rel {
+    position: relative;
+    height: 300px;
+}
+.abs {
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    background-color: tomato;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+
+    
+}
